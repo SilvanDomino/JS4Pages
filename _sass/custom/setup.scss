@@ -1,0 +1,53 @@
+// custom setup code goes here
+.code-label {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
+    border-radius: 10px;
+    color: hsl(205, 100%, 70%);
+    display: inline-block;
+    padding: 3px 10px 5px 10px;
+    margin: 0 0 0px 0;
+    width: fit-content;
+    z-index: 100;
+    top: 10px;
+    left: 5px;
+    position: relative;
+    font-family: monospace;
+  }
+
+  .note{
+    background-color: #2c84fa!important;
+    padding: 10px;
+    border-radius: 10px;
+    h2{
+      margin-top:0px!important;
+      padding-top:0px!important;
+    }
+    p{
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .small-note{
+    background-color: #2c84faaa;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-style: italic;
+    width: 500px;
+    h2{
+      margin-top:0px!important;
+      padding-top:0px!important;
+    }
+    p{
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .cover-image {
+    height: 200px;  
+    width: 100%;
+    object-fit: cover;
+  }

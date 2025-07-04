@@ -1,0 +1,20 @@
+@import "./color_schemes/dark";
+
+
+// Override colors
+$sidebar-color: #6b2db8;          // Deep purple
+$sidebar-text-color: #fdfcff;     // White text in sidebar
+$nav-child-link-color: #d9d9ff;   // Light purple for child navs
+
+// Optional: tweak link color for contrast with purple
+$link-color: #aa77ff;             // Light lavender link
+$btn-primary-color: #aa77ff;
+
+// Tweak feedback or highlight tones to match
+$feedback-color: darken($sidebar-color, 5%);
+
+.nav-list-item{
+    a{
+        color: #fdfcff !important;
+    }
+}
