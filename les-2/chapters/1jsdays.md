@@ -49,4 +49,21 @@ Zet deze code boven de for-loop.
 In de for-loop vervang de *31* met `numberOfDays`.
 
 ## Eerste dag van de maand
-De eerste dag van de maand is zelden op een maandag. Dus we moeten de 'dag 1' verplaatsen naar de juiste kolom. De makkelijkste manier om dit te doen is door 
+De eerste dag van de maand is zelden op een maandag. Dus we moeten de 'dag 1' verplaatsen naar de juiste kolom. De makkelijkste manier om dit te doen is door de juiste hoeveelheid *lege* elementen **voor** de 'dagen in de maand' te stoppen. Daar hebben we de eerste dag van de maand voor nodig, en dan vooral moeten we weten of dit op een ma/di/wo/do/vr/za/zo is. 
+
+```js
+const firstDayOfMonth = new Date(currentDate.getFullYear(),currentDate.getMonth(), 1).getDay();
+if(firstDayOfMonth == 0) firstDayOfMonth = 7;
+for (let i = 0; i < firstDayOfMonth - 1; i++) {
+    const emptyDay = document.createElement("li");
+    emptyDay.classList.add("empty");
+    days.appendChild(emptyDay);
+}
+```
+
+Zet deze code boven de for-loop van 'dagen in de maand'.
+
+---
+
+We hebben nu een werkende kalender. De volgende stap is bladeren naar de volgende of vorige maand.
+[Volgend hoofdstuk: Naar de vorige maand en volgende maand](2buttons)
