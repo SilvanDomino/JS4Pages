@@ -1,4 +1,5 @@
 ### Maak de opdrachten voor deze les
 {: .text-green-200 .fs-6 }
 
-1. [Start](1jsdays)
+1. [Dagen aanmaken](chapters/1jsdays)
+2. [Navigatie knoppen](chapters/2buttons.md)
