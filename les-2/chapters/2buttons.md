@@ -39,7 +39,13 @@ function nextMonth() {
 Laten we ook toevoegen dat we naar de volgende maand moeten gaan kijken.
 `currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1);`
 
-De volgende stap is *(bijna) alle **code*** van vorig hoofdstuk opnieuw uit te voeren. Dit moeten we doen wanneer we op de *next month* knop drukken, maar ook als we op de *prev month* knop drukken.
+Maak zelf de `prevMonth` functie aan.
+
+### Stap 3b: de maand opnieuw tekenen.
+De volgende stap is *(bijna) alle **code*** van vorig hoofdstuk opnieuw uit te voeren. Dit moeten we doen wanneer we op de *next month* knop drukken, maar ook als we op de *prev month* knop drukken. Dat kunnen we doen op 2 manieren.
+
+1) Kopieeer de code nog een keer.
+2) We zetten deze code in een functie genaamd `renderMonth`.
 
 ```js
 function renderMonth(){
@@ -49,6 +55,8 @@ function renderMonth(){
 }
 ```
 
+Als je alle stappen hebt doorlopen heb je nu een 'eenvoudige' kalender gemaakt met Javascript.
+**Laat deze zien aan de docent** (Silvan Herrema)
 ---
 
 ## Einde les 2
