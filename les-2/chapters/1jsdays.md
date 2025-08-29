@@ -18,10 +18,8 @@ In de javascript pakken we deze lijst. Hier gaan we straks de dagen weer aan toe
 
 ```js
     const days = document.querySelector(".days");
-
     //We kijken naar het jaar 2025, en de 7e maand. Dus july 2025.
     let currentDate = new Date(2025, 6);
-    
 ```
 
 En vervolgens gaan we een heleboel **dag** elementen toevoegen aan het `days` element. Met deze for-loop maken we 31x een `li` element aan, geven het een class, geven het een tekst inhoud, en voegen het toe aan het *days* element.

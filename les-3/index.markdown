@@ -1,7 +1,7 @@
 ---
-title: Les 2 - Kalender - DOM en JS
+title: Les 3 - Social Media - Start
 has_toc: false
-nav_order: 2
+nav_order: 3
 ---
 
-{% include classroom-assignment.md les="2" %}
+{% include classroom-assignment.md les="3" %}

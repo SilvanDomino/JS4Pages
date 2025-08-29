@@ -39,4 +39,17 @@ function nextMonth() {
 Laten we ook toevoegen dat we naar de volgende maand moeten gaan kijken.
 `currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1);`
 
-De volgende stap is 
+De volgende stap is *(bijna) alle **code*** van vorig hoofdstuk opnieuw uit te voeren. Dit moeten we doen wanneer we op de *next month* knop drukken, maar ook als we op de *prev month* knop drukken.
+
+```js
+function renderMonth(){
+    const lastDayOfMonth = new Date(currentDate.getFullYear(),currentDate.getMonth() + 1, 1-1);
+    const numberOfDays = lastDayOfMonth.getDate();
+    //De 3 for loops
+}
+```
+
+---
+
+## Einde les 2
+Dit is het einde van les 2. Volgende les gaan we beginnen aan social media.

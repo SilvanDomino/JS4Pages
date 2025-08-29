@@ -1,5 +1,5 @@
 ---
-parent: Les 3 - Kalender - HTML en CSS
-title: Bestanden
-nav_order: 1
+parent: Les 3 - Social Media - Start
+title: HTML en CSS voor Social Media
+nav_order: 3
 ---
