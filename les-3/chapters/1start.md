@@ -1,14 +1,18 @@
 ---
-parent: Les 3 - Social Media
-title: Bestanden
-nav_order: 1
+parent: Les 3 - Social Media - Start
+title: HTML en CSS voor Social Media
+nav_order: 3
 ---
 
-# Social Media
-Voor dit project gaan we een sociale media / nieuwswebsite bouwen.
+Deze tutorial is ter ondersteuning van het bouwen van jullie eigen social media website door gebruik te maken van Javascript. We gaan hiervoor onze content (bijna) dynamisch inladen. 
 
-Als voorbeeld hebben [ESPN.nl](https://www.espn.nl/), [reddit](https://reddit.com), [Facebook](https://facebook.com), [Twitter](https://twitter.com) of [instagram](https://www.instagram.com/).
+{: .note }
+Dynamisch wilt zeggen dat we onze data uit onze website niet hardcoded in de HTML neerzetten maar dat we deze data uit een database halen (of uit een JSON)
 
-Dit zijn pagina's waarbij je oneindig lang kan scrollen om steeds weer nieuwe content te zien.
+## Stap 1: Aanmaken van het project
+De eerste stap die we gaan doen is het aanmaken van het project. Naast de map waarin je de kalender hebt gemaakt maak een nieuwe map met de naam 'Social Media'.
+Maak hier de HTML, Javascript en de CSS in aan.
 
-De eerste les gaan we 
+* index.html
+* style.css
+* main.js
