@@ -7,6 +7,9 @@ nav_order: 2
 # Buttons
 We hebben nu een werkende kalender. Nu moeten we de knoppen werkend krijgen.
 
+## Stap 0: Maak de knoppen
+In de HTML ontbreken nog knoppen om van maand te navigeren. Maak deze aan. Geef ze de id `prev` (voor vorige maand) en `next` (voor volgende maand).
+
 ## Stap 1: Pak de knoppen
 Pak de buttons in de javascript.
 ```javascript
@@ -44,8 +47,8 @@ Maak zelf de `prevMonth` functie aan.
 ### Stap 3b: de maand opnieuw tekenen.
 De volgende stap is *(bijna) alle **code*** van vorig hoofdstuk opnieuw uit te voeren. Dit moeten we doen wanneer we op de *next month* knop drukken, maar ook als we op de *prev month* knop drukken. Dat kunnen we doen op 2 manieren.
 
-1) Kopieeer de code nog een keer.
-2) We zetten deze code in een functie genaamd `renderMonth`.
+1. Kopieeer de code nog een keer. In de functie voor vorige maand en volgende maand. We hebben dan 3x deze code.
+2. We zetten deze code in een functie genaamd `renderMonth`. En roepen deze functie aan iedere keer dat de *maand* opnieuw getekent moet worden.
 
 ```js
 function renderMonth(){
@@ -54,9 +57,15 @@ function renderMonth(){
     //De 3 for loops
 }
 ```
-
+We doen natuurlijk de tweede methode. 
 Als je alle stappen hebt doorlopen heb je nu een 'eenvoudige' kalender gemaakt met Javascript.
 **Laat deze zien aan de docent** (Silvan Herrema)
+
+## Extra: Styling
+De dagen van vorige maand en de dagen van de volgende maand hebben dezelfde stijl als die van de huidige maand. Pas dit aan. 
+Zorg dat het duidelijk is dat de dagen van de vorige maand niet bij de huidige maand horen. 
+
+
 ---
 
 ## Einde les 2

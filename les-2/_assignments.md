@@ -2,4 +2,4 @@
 {: .text-green-200 .fs-6 }
 
 1. [Dagen aanmaken](chapters/1jsdays)
-2. [Navigatie knoppen](chapters/2buttons.md)
+2. [Navigatie knoppen](chapters/2buttons)

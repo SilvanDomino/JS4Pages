@@ -50,16 +50,23 @@ In de for-loop vervang de *31* met `numberOfDays`.
 De eerste dag van de maand is zelden op een maandag. Dus we moeten de 'dag 1' verplaatsen naar de juiste kolom. De makkelijkste manier om dit te doen is door de juiste hoeveelheid *lege* elementen **voor** de 'dagen in de maand' te stoppen. Daar hebben we de eerste dag van de maand voor nodig, en dan vooral moeten we weten of dit op een ma/di/wo/do/vr/za/zo is. 
 
 ```js
-const firstDayOfMonth = new Date(currentDate.getFullYear(),currentDate.getMonth(), 1).getDay();
+const firstDayOfMonth = new Date(currentDate.getFullYear(),currentDate.getMonth(), 1);
+const firstDayOfMonthDay = firstDayOfMonth.getDay();
 if(firstDayOfMonth == 0) firstDayOfMonth = 7;
-for (let i = 0; i < firstDayOfMonth - 1; i++) {
+for (let i = 1; i < firstDayOfMonth; i++) {
     const emptyDay = document.createElement("li");
     emptyDay.classList.add("empty");
     days.appendChild(emptyDay);
 }
 ```
-
 Zet deze code boven de for-loop van 'dagen in de maand'.
+
+{: .note }
+**Uitleg**    
+De eerste regel pak ik welke dag het van de week is. Maandag = 1, dinsdag = 2, woensdag = 3.
+Als de eerste van de maand op een maandag is, dan maken we geen 'extra dagen' aan. Als de eerste van de maand op een dinsdag is, dan maken we 1 extra dag aan. En zo door.
+
+
 
 ---
 
