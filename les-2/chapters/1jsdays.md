@@ -3,7 +3,6 @@ parent: Les 2 - Kalender - Javascript
 title: Dagen van de maand
 nav_order: 1
 ---
-
 # Dagen van de maand
 We gaan nu de dagen van de maand dynamisch genereren, in plaats van alle dagen hardcoded in de HTML. Door de dagen dynamisch te generen kunnen we rekening houden met de verschillende hoeveelheid dagen van de maand en de verschillende startdagen van de maand.
 

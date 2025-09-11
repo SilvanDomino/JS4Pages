@@ -3,7 +3,6 @@ parent: Les 2 - Kalender - Javascript
 title: Buttons
 nav_order: 2
 ---
-
 # Buttons
 We hebben nu een werkende kalender. Nu moeten we de knoppen werkend krijgen.
 

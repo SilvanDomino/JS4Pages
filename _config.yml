@@ -24,8 +24,8 @@ description: Welkom bij de lessenreeks voor de M9 Mobile Development lessen.
 # baseurl: "/M8-PROG-React" 
 # url: "https://mediacollege.dev"
 
-baseurl: "/M9_Flutter" 
-url: "https://silvanDomino.github.io"
+baseurl: "/m5javascript" 
+url: "https://mediacollege.dev/"
 
 # baseurl: "/_site" 
 # url: "http://127.0.0.1:5500"
@@ -45,7 +45,6 @@ search_enabled: false
 heading_anchors: false
 
 settings:
-#  assignment_url: https://classroom.github.com/a/a3oV1MzV
   skip_date_check: true
 
 # Exclude from processing.
