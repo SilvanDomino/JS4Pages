@@ -1,5 +1,5 @@
 ---
-parent: Les 4 - Social Media - OOP
+parent: Les 4 - Social Media - Javascript
 title: 1 - Javascript
 nav_order: 2
 ---
@@ -18,7 +18,6 @@ Voor jouw eigen website, ga jouw eigen HTML en CSS gebruiken. Ga **NIET** *dit n
     <footer>
         <div>Likes: 10</div>
         <div>Comments: 10</div>
-        <button>Comments: 10</button>
     </footer>
     
 </article>
@@ -48,7 +47,7 @@ Het zelfde gaan we nu ook doen voor de titel van het artikel (de h3).
 let titleEl = document.createElement("h3");
 titleEl.className = "articleTitle";
 titleEl.innerText = "Lorem ipsum delores septim tiberus";
-parent.appendChild(titleEl);
+articleElement.appendChild(titleEl);
 ```
 
 Het resultaat van deze regel codes is de volgende HTML code:
@@ -59,8 +58,8 @@ Het resultaat van deze regel codes is de volgende HTML code:
 ```
 Op deze manier bouw je stap voor stap jouw HTML code na in javascript.
 
-## Stap 3: De afbeelding en footer
+## Stap 3: De rest
 Op dezelfde manier kan je verder bouwen aan de andere onderdelen van jouw eigen social media/nieuws website posts.
 
-## Einde les 2
-Dit is het einde van les 3. Volgende les gaan we beginnen aan de javascript van Social Media.
+## Einde les 4
+Dit is het einde van les 4. Volgende les gaan we beginnen aan het herstructureren van Social Media en asynchroon werken.

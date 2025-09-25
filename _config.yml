@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: M9 Mobile Development
-description: Welkom bij de lessenreeks voor de M9 Mobile Development lessen.
+description: Welkom bij de lessenreeks voor de M5 Javascript lessen.
 
-# baseurl: "/M8-PROG-React" 
-# url: "https://mediacollege.dev"
+# baseurl: "/JS4Pages" 
+# url: "https://silvandomino.github.io"
 
-baseurl: "/m5javascript" 
+baseurl: "/JS4Pages" 
 url: "https://mediacollege.dev/"
 
 # baseurl: "/_site" 

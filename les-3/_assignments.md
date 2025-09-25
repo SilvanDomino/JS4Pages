@@ -2,6 +2,4 @@
 {: .text-green-200 .fs-6 }
 
 1. [Start](1start)
-2. [Onze eerste component](2eerstecomponent)
-3. [Component stylen](3componentstylen)
-<!-- 4. [Testen](4testen) -->
+2. [Onze eerste component](2htmlcss)
