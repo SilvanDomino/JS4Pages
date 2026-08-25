@@ -21,10 +21,10 @@
 title: M9 Mobile Development
 description: Welkom bij de lessenreeks voor de M5 Javascript lessen.
 
-# baseurl: "/JS4Pages" 
+baseurl: "/JS4Pages" 
 # url: "https://silvandomino.github.io"
 
-baseurl: "/m5javascript" 
+# baseurl: "/m5javascript" 
 url: "https://mediacollege.dev/"
 
 # baseurl: "/_site" 

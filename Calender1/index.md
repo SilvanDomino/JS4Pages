@@ -1,5 +1,5 @@
 ---
-title: Les 1 - Kalender - HTML en CSS
+title: Kalender 1 - HTML en CSS
 has_toc: false
 nav_order: 1
 ---
