@@ -1,5 +1,5 @@
 ---
-parent: Les 3 - Social Media - Start
+parent: Social Media 1 - Start
 title: 1 - Project aanmaken
 nav_order: 1
 ---

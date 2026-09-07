@@ -1,5 +1,5 @@
 ---
-parent: Les 4 - Social Media - Javascript
+parent: Social Media 2 - Javascript
 title: 1 - Javascript
 nav_order: 2
 ---

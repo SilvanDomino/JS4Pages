@@ -1,5 +1,5 @@
 ---
-parent: Les 1 - Kalender - HTML en CSS
+parent: Kalender 1 - HTML en CSS
 title: HTML
 nav_order: 2
 ---
@@ -8,7 +8,7 @@ nav_order: 2
 Deze eerste les gaan we alle HTML in de html doen, zodat we dit kunnen stylen en dan weten we precies hoe onze kalender er uit komt te zien. En als we weten hoe onze kalender er uit zou moeten zien kunnen we ook op tijd makkelijk problemen in de rest van de code herkennen.
 
 ## Boilerplate
-Begin met het toevoegen van de html boilerplate code. In visual studio code doe je dat met `! + tab`.
+Begin met het toevoegen van de html boilerplate code. In visual studio code doe je dat met `!, tab`.
 Als we de boilerplate code hebben kunnen we de rest van de HTML toevoegen.
 
 ## JS en CSS

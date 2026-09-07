@@ -1,5 +1,5 @@
 ---
-title: Les 2 - Kalender - Javascript
+title: Kalender 2 - Javascript
 has_toc: false
 nav_order: 2
 ---

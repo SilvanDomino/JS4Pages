@@ -1,8 +1,8 @@
 number,datum,title,description
 1,2025-09-07,"Kalender: HTML en CSS","Beginnen aan een Kalender applicatie."
 2,2025-09-14,"Kalender: DOM en Javascript","De javascript code van onze kalender"
-3,2025-09-21,"Social Media: HTML en CSS","Start van onze social media pagina"
+3,2025-09-28,"Social Media: HTML en CSS","Start van onze social media pagina"
 4,2025-09-28,"Social Media: DOM en JS","Onze posts maken via javascript, gebruikmaken van OOP"
-5,2025-10-02,"Social Media: Aynchroon","Data uitlezen door middel van fetch, en deze data gebruiken"
-6,2025-10-09,"TODO: Objecten",""
-7,2025-10-16,"TODO: Features",""
+5,2025-09-28,"Social Media: Aynchroon","Data uitlezen door middel van fetch, en deze data gebruiken"
+6,2025-10-05,"Pokemon: Objecten","Uitlezen van objecten"
+7,2025-10-19,"Pokemon: Stijl","Gebruik van complexere functie bv Filter() of Map()"

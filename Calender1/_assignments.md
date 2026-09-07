@@ -3,4 +3,4 @@
 
 1. [Start](chapters/1start)
 1. [HTML](chapters/2html)
-1. [CSS](chapters/3css)
+1. [CSS](chapters/3header)

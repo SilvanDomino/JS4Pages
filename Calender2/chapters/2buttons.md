@@ -1,5 +1,5 @@
 ---
-parent: Les 2 - Kalender - Javascript
+parent: Kalender 2 - Javascript
 title: Buttons
 nav_order: 2
 ---

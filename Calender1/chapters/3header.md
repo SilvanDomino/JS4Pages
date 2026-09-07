@@ -1,5 +1,5 @@
 ---
-parent: Les 1 - Kalender - HTML en CSS
+parent: Kalender 1 - HTML en CSS
 title: Header en weekdagen
 nav_order: 3
 ---
