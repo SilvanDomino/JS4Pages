@@ -1,7 +1,7 @@
 ---
-title: Les 7
+title: Kalender 2 - Javascript
 has_toc: false
-nav_order: 7
+nav_order: 2
 ---
 
 {% include classroom-assignment.md les="2" %}

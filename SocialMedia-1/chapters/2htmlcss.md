@@ -1,5 +1,5 @@
 ---
-parent: Les 3 - Social Media - Start
+parent: Social Media 1 - Start
 title: 2 - HTML en CSS
 nav_order: 2
 ---

@@ -1,5 +1,5 @@
 ---
-title: Les 4 - Social Media - Javascript
+title: Social Media 2 - Javascript
 has_toc: false
 nav_order: 4
 ---

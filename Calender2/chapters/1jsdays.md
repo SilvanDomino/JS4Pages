@@ -1,5 +1,5 @@
 ---
-parent: Les 2 - Kalender - Javascript
+parent: Kalender 2 - Javascript
 title: Dagen van de maand
 nav_order: 1
 ---
