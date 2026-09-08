@@ -50,9 +50,9 @@ De eerste dag van de maand is zelden op een maandag. Dus we moeten de 'dag 1' ve
 
 ```js
 const firstDayOfMonth = new Date(currentDate.getFullYear(),currentDate.getMonth(), 1);
-const firstDayOfMonthDay = firstDayOfMonth.getDay();
-if(firstDayOfMonth == 0) firstDayOfMonth = 7;
-for (let i = 1; i < firstDayOfMonth; i++) {
+let firstDayOfMonthDay = firstDayOfMonth.getDay();
+if(firstDayOfMonthDay == 0) firstDayOfMonthDay = 7;
+for (let i = 1; i < firstDayOfMonthDay; i++) {
     const emptyDay = document.createElement("li");
     emptyDay.classList.add("empty");
     days.appendChild(emptyDay);
@@ -70,4 +70,4 @@ Als de eerste van de maand op een maandag is, dan maken we geen 'extra dagen' aa
 ---
 
 We hebben nu een werkende kalender. De volgende stap is bladeren naar de volgende of vorige maand.
-[Volgend hoofdstuk: Naar de vorige maand en volgende maand](2buttons)
+[Volgend hoofdstuk: Naar de vorige maand en volgende maand](2buttons.html)

@@ -61,4 +61,4 @@ html{
 ---
 
 We hebben nu onze basis bestanden.
-[Volgend hoofdstuk: De HTML en CSS van onze social media website](2htmlcss)
+[Volgend hoofdstuk: De HTML en CSS van onze social media website](2htmlcss.html)

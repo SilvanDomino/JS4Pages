@@ -11,7 +11,7 @@ Op deze website vind je links naar de opdrachten voor het vak Mobile Development
 
 ---
 
-[Lees hier hoe je vervolgens de opdrachten maakt en inlevert](opdracht){: .btn .btn-blue }
+[Lees hier hoe je vervolgens de opdrachten maakt en inlevert](instructie.html){: .btn .btn-blue }
 
 ---
 
@@ -21,13 +21,21 @@ Op deze website vind je links naar de opdrachten voor het vak Mobile Development
 {% assign today = "now"|date:"%Y%m%d" %}
 {% assign lesson_date = lesson.datum|date:"%Y%m%d" %}
 
-{% if lesson_date <= today or site.settings.skip_date_check%}
+{% assign lesson_path = "les-" | append: lesson.number | append: "/index.markdown" %}
+{% assign lesson_page = site.pages | where: "path", lesson_path | first %}
+{% assign show_lesson = false %}
+{% if lesson_page %}
+{% if lesson_date <= today or site.settings.skip_date_check %}
+{% assign show_lesson = true %}
+{% endif %}
+{% endif %}
+{% if show_lesson %}
 ## Les {{ lesson.number }}:  {{ lesson.title }}
 {: .text-purple-100 :}
 
 {{ lesson.description }}
 
-[Start](les-{{ lesson.number }} ){: .btn .btn-purple }
+[Start](les-{{ lesson.number }}/){: .btn .btn-purple }
 {% else %}
 ## Les {{ lesson.number }}:  {{ lesson.title }}
 {: .text-grey-dk-000 :}

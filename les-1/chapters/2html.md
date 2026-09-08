@@ -102,4 +102,4 @@ Of een wat vrolijkere stijl:
     background: linear-gradient(135deg, #fcf8fb 0%, #ffe0fc 100%);
 }
 ```
-[Volgend hoofdstuk: De header en weekdagen](3header)
+[Volgend hoofdstuk: De header en weekdagen](3header.html)

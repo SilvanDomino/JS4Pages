@@ -13,4 +13,4 @@ Deze les staat in het teken van twee dingen.
 ---
 We hebben nu een korte introductie over onze volgende stap. 
 
-[Volgend hoofdstuk: Onze code herstructureren](2refractor)
+[Volgend hoofdstuk: Onze code herstructureren](2refractoren.html)

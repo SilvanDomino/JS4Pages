@@ -106,4 +106,4 @@ import {makepost} from 'post';
 
 ---
 Vorige les ben je hard bezig geweest met javascript code schrijven, en nu met een paar kleine aanpassingen heb je ineens code die heel erg herbruikbaar is!
-[Volgend hoofdstuk: Content inladen](3async)
+[Volgend hoofdstuk: Content inladen](3async.html)

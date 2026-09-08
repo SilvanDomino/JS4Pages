@@ -31,4 +31,4 @@ Maak de volgende bestanden aan in de map voor de **kalender opdracht**:
 * style.css
 * main.js
 
-[Volgend hoofdstuk: De HTML](2html)
+[Volgend hoofdstuk: De HTML](2html.html)
