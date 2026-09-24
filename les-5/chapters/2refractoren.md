@@ -12,10 +12,11 @@ let data1 = {
     user: "Vivien_on_the_hunt",
     likes: 201,
     comments: 67,
-    text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb"
+    text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb",
+    imgUrl: "https://picsum.photos/200/300"
 }
 
-makePost(data1);
+makePost(data1.user, data.imgUrl);
 ```
 
 
@@ -36,54 +37,21 @@ Als we deze HTML code hebben:
 Dan ziet onze Javascript code er als volgt uit:
 
 ```js
-    let parent = document.querySelector("#article__list");
-
-    let articleElement = document.createElement("article");
-    articleElement.className = "articleTile";
-
-    let titleEl = document.createElement("h3");
-    titleEl.className = "articleTitle";
-    titleEl.innerText = "Lorem ipsum delores septim tiberus";
-    articleElement.appendChild(titleEl);
-
-    let footerEl = document.createElement("footer");
-    let likesEl = document.createElement("div");
-    likesEl.innerText = "Likes: 10";
-    footerEl.appendChild(likesEl);
-    let commentsEl = document.createElement("div");
-    commentsEl.innerHTML = "Comments: 20";
-    footerEl.appendChild(commentsEl);
-    articleElement.appendChild(footerEl);
-
-    parent.appendChild(articleElement);
-```
-
-Dit zetten we in een functie, en de functie krijgt een **argument** mee (namelijk de **data** die de post gebruikt).
-
-```js
-function makePost(data){
-    let parent = document.querySelector("#article__list");
-
-    let articleElement = document.createElement("article");
-    articleElement.className = "articleTile";
-
-    let titleEl = document.createElement("h3");
-    titleEl.className = "articleTitle";
-    titleEl.innerText = data.text;
-    articleElement.appendChild(titleEl);
-
-    let footerEl = document.createElement("footer");
-    let likesEl = document.createElement("div");
-    likesEl.innerText = `Likes: ${data.likes}`;
-    footerEl.appendChild(likesEl);
-    let commentsEl = document.createElement("div");
-    commentsEl.innerHTML = `Comments: ${data.comments}`;
-    footerEl.appendChild(commentsEl);
-    articleElement.appendChild(footerEl);
-
-    parent.appendChild(articleElement);
+function createPost(title, imgUrl) {
+  ///...
+  ///hier je eerdere code
+  ///...
+  rootElement.innerHTML = `
+    <h3 class="articleTitle">${title}</h3>
+    <img class="article__img" src="${imgUrl}" alt="news image">
+    <footer>
+        <div>Likes: 10</div>
+        <div>Comments: 10</div>
+    </footer>
+`;
 }
 ```
+
 ---
 
 ## Meerde bestanden
@@ -99,11 +67,12 @@ export makePost;
 ```js
 import {makepost} from 'post';
 ```
-5. Pas de *script tag* aan in de HTML. Voeg `type="module"` toe.
+5. Pas de *script tag* aan in de HTML. Voeg `type="module"` toe. Dit moeten we doen omdat met javascript in meerdere bestanden werken op deze manier relatief nieuw is.
 ```html
 <script src="main.js" type="module"></script>
 ```
 
+6. Nu kan je in `main.js` alsnog makePost() aanroepen om nieuwe posts aan te maken!
 ---
 Vorige les ben je hard bezig geweest met javascript code schrijven, en nu met een paar kleine aanpassingen heb je ineens code die heel erg herbruikbaar is!
 [Volgend hoofdstuk: Content inladen](3async.html)

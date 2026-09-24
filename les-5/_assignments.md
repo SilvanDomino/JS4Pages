@@ -2,3 +2,5 @@
 {: .text-green-200 .fs-6 }
 
 1. [Start](chapters/1onderwerp.html)
+2. [Start](chapters/2refractor.html)
+3. [Start](chapters/3async.html)

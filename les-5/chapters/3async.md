@@ -12,9 +12,10 @@ let data1 = {
     user: "Vivien_on_the_hunt",
     likes: 201,
     comments: 67,
-    text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb"
+    text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb",
+    imgUrl: "https://picsum.photos/200/300"
 }
-makePost(data1);
+makePost(data.user, data.imgUrl);
 ```
 
 ## Maak een JSON bestand
@@ -39,19 +40,19 @@ Vul dit bestand met jouw content, met minstens 10 posts.
 <div class="note">
 <b>Tip: <i>Gebruik hier AI voor</i><br><br></b>
 
-Can you make me a JSON file with mock for my social media website? Content looks like this: <br>{ user: "Vivien_on_the_hunt", likes: 201, comments: 67, text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb" } <br>I want an array of 10 objects.
+Can you make me a JSON file with mockdata for my social media website? Content looks like this: <br>{ user: "Vivien_on_the_hunt", likes: 201, comments: 67, text: "Black coat, white shoes, black hat, caddilac, yeah the boy's a time bomb", imgUrl: "https://picsum.photos/200/300" } <br>I want an array of 10 objects.
 </div>
 
 
 ## Fetch
 Maak gebruik van de Fetch functie om de JSON binnen te halen.
 ```js
-fetch('data.json')
-.then(response=>response.json())
-.then(data=>{
-  console.log(posts);
+async function fetchData(){
+  let response= await fetch('data.json');
+  let data = await response.json();
+  console.log(data);
   //HIER KOMT DE REST VAN DE CODE
-})
+}
 ```
 
 ## Gebruik de JSON
@@ -82,4 +83,4 @@ posts.forEach(post=>{
 ---
 We hebben nu de javascript code geherstructureerd. Onze `main.js` bestand bestaat nu misschien uit 12 regels code. Ook hebben we content ingeladen vanuit een JSON bestand.
 
-Volgende les gaan we aan de slag met de volgende opdracht, het bouwen van een Anime website.
+Volgende les gaan we aan de slag met de volgende opdracht, het bouwen van een Pokedex.
